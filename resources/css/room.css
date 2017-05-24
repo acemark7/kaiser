@@ -1,0 +1,31 @@
+
+.rm-item-room{
+	height:45px;
+}
+.input-room{
+    width: 122% !important;
+    height: 40px !important;
+}
+.paginate-room {
+    display: inline-block;
+	border: solid 1px #ebebeb;
+	color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+	cursor: pointer;
+}
+.pagination-row{
+	height:50px;
+}
+.page-active{
+	 background-color:#00bcd4;
+}
+.paginate-room:hover{
+   background-color:#00bcd4;
+   color: black;
+}
+@media (min-width: 300px) and (max-width: 600px){
+	.input-room{
+		width: 105% !important;
+	}
+}

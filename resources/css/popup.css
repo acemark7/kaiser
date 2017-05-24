@@ -1,0 +1,24 @@
+/** Popup **/
+
+.pop-loader{
+	position:absolute;
+	z-index:1100;
+	width: 100%;
+	text-align: center;
+	height:100%;
+	top:0;
+	}
+.loader-outer{
+	position:absolute;
+	background-color:#ebebeb;
+	opacity: 0.5;
+	width:100%;
+	height:100%;
+	}
+.loader-inner{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	}

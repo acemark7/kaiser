@@ -1,0 +1,41 @@
+
+.rm-item-users{
+	height:45px;
+}
+.input-user{
+    width: 95% !important;
+    height: 35px !important;
+}
+.user-select-option{
+	font-size:16px;
+}
+.usertbl{
+	width:100%;
+}
+.usertbl td{
+	width:21%;
+}
+.fa:hover{
+	color:#00bcd4;
+}
+.paginate {
+    display: inline-block;
+	border: solid 1px #ebebeb;
+	color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+	cursor: pointer;
+}
+.pagination-row{
+	height:50px;
+}
+.page-active{
+	 background-color:#00bcd4;
+}
+.paginate:hover{
+   background-color:#00bcd4;
+   color: black;
+}
+@media (min-width: 300px) and (max-width: 600px){
+	
+}

@@ -1,0 +1,73 @@
+/** Custom CSS **/
+body {
+    padding-top: 78px;
+	background-color:#fafcfe;
+}
+
+/* Nav Start */	
+
+.navbar{
+	min-height:78px;
+	border:none;
+}
+
+.nav-outer{
+	position:relative;
+	height:78px;
+}
+.nav-inner{
+	position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nav li{
+	min-width:55px;
+}
+.navbar-inverse .navbar-nav>li>a{
+	color: #ffffff;
+	}
+.navbar-nav>li>a{
+	border: solid 2px #037abc;
+	padding:10px 0;
+	margin-top:3px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover{
+	background-color:#037abc;
+	}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover{
+	background-color:#037abc;
+	}
+.navbar-right>li:last-child{
+	min-width:220px;
+}
+.navbar-right>li:last-child a{
+	border:none;
+	padding:0px;
+	color: #a5b1b8;
+	}
+.navbar-left>li a{
+	border:none;
+	}
+.navbar-left>li a:hover, .navbar-left>li a:focus{
+	background-color: transparent;
+	}
+	
+/* Nav End */	
+
+.line{
+	border-top:solid 1px #ebebeb;
+	height:1px;
+	width:100%;
+	float:left;
+}
+
+.ln-title{
+	line-height:3;	
+}
+
+ul{
+	list-style-type:none;
+	}

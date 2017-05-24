@@ -1,0 +1,62 @@
+
+.rm{
+	position:relative;
+	min-height:210px;
+}
+.rm-top, .rm-bottom, .rm-mid{
+	position:absolute;
+	width:100%
+	}
+.rm-top{
+	top:0;
+	}
+.rm-bottom{
+	bottom:0;
+	}
+.rm-mid{
+	top: 50%;
+    transform: translateY(-50%);
+	}
+.rm-status{
+	position:relative;
+	
+	}
+.rm-status:before,.rm-mid:before {
+    font-family: FontAwesome;
+    right: 10%;
+    position:absolute;
+    bottom: 0;
+    color: #f4f5f6;
+    display:inline-block;
+    height:inherit;
+    font-size: 5em;
+	line-height:1;
+ }
+.hotel:before{
+	content: "\f236";
+	}
+.hourglass-half:before{
+	content: "\f252";
+	}
+.heart:before{
+	content: "\f21e";
+	}
+.hand-paper:before{
+	content: "\f256";
+	}
+.cogs:before{
+	content: "\f085";
+	}
+.video-camera:before{
+	content: "\f03d";
+	}
+
+.rm-mid:before {
+    right: unset;
+    bottom: -100%;
+    width: calc(100% - 20px);
+    text-align: center;
+ }
+.rm-mark{
+	padding: 3px 10px;
+	}
